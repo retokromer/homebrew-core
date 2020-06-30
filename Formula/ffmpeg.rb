@@ -59,7 +59,6 @@ class Ffmpeg < Formula
       --cc=#{ENV.cc}
       --host-cflags=#{ENV.cflags}
       --host-ldflags=#{ENV.ldflags}
-      --enable-ffplay
       --enable-gnutls
       --enable-gpl
       --enable-libaom
